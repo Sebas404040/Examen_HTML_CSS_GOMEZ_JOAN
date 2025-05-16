@@ -106,3 +106,85 @@ header {
     flex-direction: column-reverse;
     align-items: center;
 }
+
+.mapa {
+    width: 450px;
+    height: 450px;
+    border: 2px solid #bdbdbd;
+    border-radius: 2%;
+}
+
+.contenedor_contacto {
+    display: flex;
+    gap: 30px;
+    padding: 50px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contacto {
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor_primario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    
+}
+
+.location {
+    width: 64px;
+}
+
+.mensaje {
+    width: 64px;
+}
+
+.telefono {
+    width: 64px;
+}
+
+.ig {
+    width: 64px;
+}
+
+.salto {
+    margin-top: 90px;
+    height: 10px;
+    width: 100%;
+    background: linear-gradient(to right, #c7c7c7, #0011ff);
+}
+
+@media screen and (max-width: 768px) {
+    .carrusel {
+        flex-direction: column;
+        align-items: center;
+    }
+    .IA, .robot, .nube {
+        width: 100%;
+        height: auto;
+    }
+    .contenedor_mision_vision {
+        flex-direction: column;
+    }
+    .mapa {
+        width: 100%;
+        height: auto;
+    }
+    .contenedor_contacto {
+        flex-direction: column;
+    }
+    .contacto {
+        flex-direction: column;
+    }
+    
+}
