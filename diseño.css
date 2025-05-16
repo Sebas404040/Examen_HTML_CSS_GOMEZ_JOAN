@@ -218,5 +218,8 @@ hr {
     .contacto {
         flex-direction: column;
     }
-    
+    .mision, .vision {
+        width: 20%;
+        height: auto;
+    }
 }
