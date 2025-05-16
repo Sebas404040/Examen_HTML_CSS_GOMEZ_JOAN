@@ -18,6 +18,7 @@ header {
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
+    font-family: "OpenSans";
 }
 
 hr {
@@ -30,6 +31,7 @@ hr {
     align-items: center;
     gap: 20px;
     padding: 10px;
+    font-family: "OpenSans";
 }
 
 .img_home {
@@ -70,12 +72,14 @@ hr {
 .cuadro1 {
     display: flex;
     gap: 20px;
-    padding: 50px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border: 2px solid #000;
+    padding: 50px;
+    font-family: "OpenSans";
 }
+
+
 
 .contenedor_mision_vision {
     display: flex;
@@ -100,6 +104,7 @@ hr {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    font-family: "OpenSans";
 }
 
 .caja_vision {
@@ -109,6 +114,7 @@ hr {
     justify-content: center;
     flex-direction: column-reverse;
     align-items: center;
+    font-family: "OpenSans";
 }
 
 .mapa {
@@ -134,6 +140,7 @@ hr {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    font-family: "OpenSans";
 }
 
 .contenedor_primario {
