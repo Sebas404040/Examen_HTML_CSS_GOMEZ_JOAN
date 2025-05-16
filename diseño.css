@@ -1,0 +1,36 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("fonts/OpenSans-Bold.ttf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.img_home {
+    width: 100%;
+}
+
+.texto_footer {
+    font-family: "OpenSans";
+    height: 60%;
+    padding: 100px;
+    text-align: center;
+}
